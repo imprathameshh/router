@@ -1,0 +1,29 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(40, 33, 33);
+}
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.active{
+    background: rgb(219, 151, 24);
+}
+.navbar-wrap ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.navbar-wrap ul li {
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar-wrap ul li a{
+    padding: 6px 12px;
+    border-radius: 6px;
+}
